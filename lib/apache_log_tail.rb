@@ -106,7 +106,7 @@ end
 # original except for a `.1` suffix and as long as the file hasn't been rotated
 # twice between invocations of #each_new_line).
 #
-# Note that this class does no parse Apache log entries, only knows how Apache
+# Note that this class does not parse Apache log entries, only knows how Apache
 # log files are rotated on Debian.  I have enjoyed using the `apachelogregex`
 # gem for parsing.
 #
