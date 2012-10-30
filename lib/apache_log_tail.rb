@@ -2,8 +2,8 @@
 # Facilitates reading the most recent additions to a log file.
 #
 # Example:
-#     tail = LogTail.new "/var/log/apache2/access.log"
-#     tail.state_store.path_to_file = "/tmp/my-state.txt" # Optional: there is a default path
+#     tail = ApacheLogTail.new "/var/log/apache2/access.log"
+#     tail.state_store.path_to_file = "/tmp/my-state.yml" # Optional: there is a default path
 #     tail.each_new_line {|line| puts line }
 #
 # ## A custom StateStore
